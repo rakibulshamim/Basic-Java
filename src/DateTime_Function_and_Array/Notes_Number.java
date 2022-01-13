@@ -12,10 +12,8 @@ public class Notes_Number {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Amount:");
         int amount = input.nextInt();
-
         int[] notes={1000,500,100,50,20,10,5,2};
         int[] count=new int[8];
-
 
         for(int i=0; i<notes.length; i++){
             if (amount >= notes[i]) {
